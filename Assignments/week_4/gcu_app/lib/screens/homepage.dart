@@ -14,6 +14,9 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.lightGreenAccent,
         ),
         drawer: const MenuDrawer(),
+        bottomNavigationBar: BottomNavigationBar(
+          
+        ),
         body: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
