@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../common/menudrawer.dart';
+import '../common/ownNavBar.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -14,9 +15,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.lightGreenAccent,
         ),
         drawer: const MenuDrawer(),
-        bottomNavigationBar: BottomNavigationBar(
-          
-        ),
+        bottomNavigationBar: ownNavBar(),
         body: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
