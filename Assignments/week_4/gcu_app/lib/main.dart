@@ -17,8 +17,8 @@ class GCUAPP extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        "/": (context) => HomePage(),
-        "/webApphacking": (context) => webAppHacking(),
+        "/": (context) => const HomePage(),
+        "/webApphacking": (context) => const webAppHacking(),
         "/mobileHacking": (context) => mobileHacking(),
         "/apiHacking":(context) => apiHacking(),
         "/reverseEngineering":(context) => reverseEngineering()

@@ -14,8 +14,9 @@ class HomePage extends StatelessWidget {
         title: const Text("Hackers Den!"),
         backgroundColor: Colors.lightGreenAccent,
         ),
+        bottomNavigationBar: const ownNavBar(),
         drawer: const MenuDrawer(),
-        bottomNavigationBar: ownNavBar(),
+        
         body: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(

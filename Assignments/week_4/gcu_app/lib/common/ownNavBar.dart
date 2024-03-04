@@ -9,13 +9,6 @@ class ownNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
-      items: [
-        BottomNavigationBarItem(icon: Icon(Icons.home_rounded, color: Colors.lightGreenAccent,), label: "Home",),
-        BottomNavigationBarItem(icon: Icon(Icons.web_rounded, color: Colors.lightGreenAccent), label: "Web"),
-        BottomNavigationBarItem(icon: Icon(Icons.mobile_screen_share_rounded, color: Colors.lightGreenAccent), label: "Mobile",),
-        BottomNavigationBarItem(icon: Icon(Icons.api_rounded, color: Colors.lightGreenAccent), label: "API"),
-        BottomNavigationBarItem(icon: Icon(Icons.precision_manufacturing_rounded, color: Colors.lightGreenAccent), label: "R.E")
-      ],
       onTap: (index) {
         switch(index){
           case 0:
@@ -33,9 +26,16 @@ class ownNavBar extends StatelessWidget {
           case 4:
             Navigator.pushNamed(context, "/reverseEngineering");
             break;
-          default:
         }
       },
+      items: const [
+        BottomNavigationBarItem(icon: Icon(Icons.home_rounded, color: Colors.lightGreenAccent,), label: "Home",),
+        BottomNavigationBarItem(icon: Icon(Icons.web_rounded, color: Colors.lightGreenAccent), label: "Web"),
+        BottomNavigationBarItem(icon: Icon(Icons.mobile_screen_share_rounded, color: Colors.lightGreenAccent), label: "Mobile",),
+        BottomNavigationBarItem(icon: Icon(Icons.api_rounded, color: Colors.lightGreenAccent), label: "API"),
+        BottomNavigationBarItem(icon: Icon(Icons.precision_manufacturing_rounded, color: Colors.lightGreenAccent), label: "R.E")
+      ],
+      
     );
   }
 }
