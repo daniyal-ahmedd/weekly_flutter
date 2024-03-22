@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gcu_app/screens/About.dart';
+import 'package:gcu_app/screens/apiHacking.dart';
 import 'package:gcu_app/screens/mobileHacking.dart';
-import 'package:gcu_app/screens/hackingFeeCalculator.dart';
+import 'package:gcu_app/screens/reverseEngineering.dart';
 import 'package:gcu_app/screens/webAppHacking.dart';
 import 'screens/homepage.dart';
 
@@ -20,8 +20,8 @@ class GCUAPP extends StatelessWidget {
         "/": (context) => const HomePage(),
         "/webApphacking": (context) => const webAppHacking(),
         "/mobileHacking": (context) => mobileHacking(),
-        "/apiHacking":(context) => About(),
-        "/reverseEngineering":(context) => hackingFeeCalculator()
+        "/apiHacking":(context) => apiHacking(),
+        "/reverseEngineering":(context) => reverseEngineering()
       },
       initialRoute: "/",
     );

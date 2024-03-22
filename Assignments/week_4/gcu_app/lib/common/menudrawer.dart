@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:gcu_app/screens/homepage.dart';
 import 'package:gcu_app/screens/webAppHacking.dart';
 import 'package:gcu_app/screens/mobileHacking.dart';
-import 'package:gcu_app/screens/About.dart';
-import 'package:gcu_app/screens/hackingFeeCalculator.dart';
+import 'package:gcu_app/screens/apiHacking.dart';
+import 'package:gcu_app/screens/reverseEngineering.dart';
 
 
 class MenuDrawer extends StatelessWidget {
@@ -28,9 +28,9 @@ class MenuDrawer extends StatelessWidget {
     final Set<String> menuTitles = {
       "Home",
       "Web-App hacking",
-      "About",
+      "Api hacking",
       "Mobile hacking",
-      "Hacking Fee Calculator"
+      "Reverse Engineering"
     };
 
     menuTitles.forEach((element) {
@@ -46,14 +46,14 @@ class MenuDrawer extends StatelessWidget {
             case 'Web-App hacking':
               screen = webAppHacking();
               break;
-            case 'About':
-              screen = const About();
+            case 'Api hacking':
+              screen = const apiHacking();
               break;
             case 'Mobile hacking':
               screen = const mobileHacking();
               break;
-            case 'Hacking Fee Calculator':
-              screen = const hackingFeeCalculator();
+            case 'Reverse Engineering':
+              screen = const reverseEngineering();
               break;
             default:
           }
