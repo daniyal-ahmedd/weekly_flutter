@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822449360925",
+    "project_id": "sports-47ad1",
+    "storage_bucket": "sports-47ad1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822449360925:android:eb102266aaa9238079b6f4",
+        "android_client_info": {
+          "package_name": "com.example.gcu_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVpKYC1vo8mXKI7OOIzcDCZZUHaecsL2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
