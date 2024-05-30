@@ -29,7 +29,7 @@ class MenuDrawer extends StatelessWidget {
 
     final Set<String> menuTitles = {
       "Home",
-      "Web-App hacking",
+      "Google Maps",
       "About",
       "Sports",
       "Hacking Fee Calculator",
@@ -47,8 +47,8 @@ class MenuDrawer extends StatelessWidget {
             case 'Home':
               screen = const HomePage();
               break;
-            case 'Web-App hacking':
-              screen = webAppHacking();
+            case 'Google Maps':
+              screen = googleMaps();
               break;
             case 'About':
               screen = const About();

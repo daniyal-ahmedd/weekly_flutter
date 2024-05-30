@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import '../common/menudrawer.dart';
 import '../common/ownNavBar.dart';
 
-class webAppHacking extends StatelessWidget {
-  const webAppHacking({super.key});
+class googleMaps extends StatelessWidget {
+  const googleMaps({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Web-App hacking"),
+        title: Text("Google maps"),
         backgroundColor: Colors.lightGreenAccent,
       ),
       drawer: const MenuDrawer(),
