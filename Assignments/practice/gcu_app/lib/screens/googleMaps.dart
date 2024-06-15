@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../common/menudrawer.dart';
-import '../common/ownNavBar.dart';
+// import '../common/ownNavBar.dart';
 
 class googleMaps extends StatelessWidget {
   const googleMaps({super.key});
@@ -13,7 +13,7 @@ class googleMaps extends StatelessWidget {
         backgroundColor: Colors.lightGreenAccent,
       ),
       drawer: const MenuDrawer(),
-      bottomNavigationBar: ownNavBar(),
+      // bottomNavigationBar: ownNavBar(),
       body: Center(child: Text("Go to portswigger.net, the best resource for learning web-app hacking.")),
     );
   }

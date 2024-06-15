@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gcu_app/screens/About.dart';
 import 'package:gcu_app/screens/sports.dart';
 import 'package:gcu_app/screens/hackingFeeCalculator.dart';
-import 'package:gcu_app/screens/webAppHacking.dart';
+import 'package:gcu_app/screens/googleMaps.dart';
 import 'screens/homepage.dart';
 
 void main() {
